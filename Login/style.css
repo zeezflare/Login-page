@@ -1,0 +1,136 @@
+
+body{
+    font: normal 18px;
+    background: url(./IMG/Background.png);
+    color:#fff;
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Container{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+     
+}
+.avartar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+}
+h1{
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px;
+}
+.Container p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.Container input{
+    width: 100%;
+    margin-bottom: 20px; 
+}
+.Container input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px ;
+    color: white;
+    font-size: 16px;
+}
+ .Container input[type="submit"]{
+     border: none;
+     outline: none;
+     height: 40px;
+     background:#F7941C;
+     border-radius: 20px;
+ }
+ .Container input[type="submit"]:hover{
+     cursor: pointer;
+     background: #fff;
+     color: #000;
+ }
+ .Container a{
+     text-decoration: none;
+     font-size: 12px;
+     line-height: 20px;
+     color: gray;
+ }
+ .Container a:hover{
+     color: honeydew;
+ }
+ .register{
+     width:420px;
+     height:720px;
+     background: black;
+     color: white;
+     top: 15%;
+     left: 40%;
+     position: absolute;
+     transform: translate(50% - 50px);
+     box-sizing: border-box;
+     padding: 70px 30px;
+     border-radius: 30px;
+ }
+ .avatar{
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+     position: absolute;
+     top: -50px;
+     left: 158px;
+ }
+ .register p{
+     margin: 0;
+     padding: 0;
+     font-weight: bold;
+ }
+ .register input{
+     width: 100%;
+     margin-bottom: 20px;
+ }.register input[type="text"], input[type="password"],input[type="email"]{
+     border: none;
+     border-bottom: 1px solid #fff;
+     background: transparent;
+     outline: none;
+     height: 40px;
+     color: #fff;
+     font-size: 16px;
+ }
+.register input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #F7941C;
+    border-radius: 30px;
+}
+.register input[type="submit"]:hover{
+    cursor: pointer;
+    background: #fff;
+    color: black;
+}
+.register a{
+    text-decoration: none;
+     font-size: 12px;
+     color:white;
+     line-height: 20px;
+}
+.register a:hover{
+    color: gray;
+}
